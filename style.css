@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav ul li{
+    list-style: none;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    justify-content: space-between;
+    transition: 0.5s;
+    background-color: blue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+   justify-content: space-between;
+   
+}
+nav ul li:hover{
+    background-color:blueviolet;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu{
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    display: none;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    background-size: cover;
+}
+.content p{
+    font-size: 150px;
+    color: blue;
+    }
+.content h1{
+    font-size: 100px;
+    color: aqua;
+    }
+.btn{
+    width: 100px;
+    height: 60px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: brown;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.footer ul li a img{
+    width: 50px;
+    height: 50px;
+    margin: 1px 1px;
+    padding: 1px 1px;
+}
+@media screen and (max-width:700px) {
+    body{
+        background-image: url(images/bg.jpg);
+        background-size: cover;
+    }
+    .content{
+        width: 100%;
+        height: 95%;
+        align-items: center;
+        background-size: cover;
+    }
+    .content p{
+        font-size: 50px;
+        color: blue;
+        }
+    .content h1{
+        font-size: 30px;
+        color: aqua;
+        }
+}
+@media screen and (max-width:450px) {
+    body{
+        background-image: url(images/bg.jpg);
+        background-size: cover;
+    }
+    .content{
+        width: 100%;
+        height: 95%;
+        align-items: center;
+        background-size: cover;
+    }
+    .content p{
+        font-size: 40px;
+        color: blue;
+        }
+    .content h1{
+        font-size: 20px;
+        color: aqua;
+        }
+        .menu{
+            height: 30px;
+            width: 30px;
+            margin: 5px 5px;
+            padding: 1px 1px;
+            justify-content: space-between;
+            cursor: pointer;
+            display: block;
+        }
+        nav ul{
+            width: 100%;
+            display: none;
+            align-items: center;
+            justify-content: right;
+        }
+        nav ul.active{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 2px 2px;
+            padding: 1px 1px;
+            display:inline-block;
+            transition: 0.5s;
+            background-color: blue;
+        }
+        .logo{
+            height: 30px;
+            width: 40px;
+            margin: 5px 5px;
+            padding: 5px 5px;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .footer ul li a img{
+            width: 20px;
+            height: 20px;
+            margin: 1px 1px;
+            padding: 1px 1px;
+        }
+        .btn{
+            width: 60px;
+            height: 50px;
+            margin: 5px 5px;
+            padding: 5px 5px;
+            background-color: blueviolet;
+            transition: 0.5s;
+        }
+        .btn:hover{
+            background-color: brown;
+}
+

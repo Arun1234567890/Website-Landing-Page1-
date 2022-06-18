@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+            <img src="images/hb menu.png.jpeg" class="menu" value="Toggle">
+        </nav>
+    </div>
+        <div class="content">
+            <p>Myself <br> Arunaachalam M</p><br>
+            <h1>Programmer and Web Developer</h1>
+            <button class="btn">View Resume</button>
+        </div>
+            <br>
+            <div class="footer">
+                <ul>
+               <li><a href="#"><img src="images/facebook.png.jpeg"></a></li>
+               <li><a href="#"><img src="images/gmail.png.jpeg"></a></li>
+               <li><a href="#"><img src="images/linkedin.png.jpeg"></a></li>
+               <li><a href="#"><img src="images/instagram.png.jpeg"></a></li>
+            </ul>
+
+            </div>
+            <script src="js/jquery.js"></script>
+            <script>
+                $("document").ready(function(){
+                      $(".menu").click(function(){
+                         $("nav ul").toggle("");
+                      });
+                });
+            </script>
+    
+</body>
+</html>
